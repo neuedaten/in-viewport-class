@@ -20,6 +20,7 @@
     const defaultOptions = {
         'tellMeClass': 'i-v',
         'inViewClass': 'in-viewport',
+        'onceInViewClass': 'in-viewport-once',
         'wasInViewClass': 'was-in-viewport'
     };
 
@@ -65,6 +66,10 @@
                 if (this.isInViewport($element, viewportTop, viewportBottom) === true) {
                     if (!$element.hasClass(this.opts.inViewClass)) {
                         $element.addClass(this.opts.inViewClass);
+
+                        if (!$element.hasClass(this.opts.onceInViewClass)) {
+                            $element.addClass(this.opts.onceInViewClass);
+                        }
                     }
                 } else {
                     if ($element.hasClass(this.opts.inViewClass)) {

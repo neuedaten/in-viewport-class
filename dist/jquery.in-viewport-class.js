@@ -29,6 +29,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var defaultOptions = {
         'tellMeClass': 'i-v',
         'inViewClass': 'in-viewport',
+        'onceInViewClass': 'in-viewport-once',
         'wasInViewClass': 'was-in-viewport'
     };
 
@@ -83,6 +84,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                     if (_this2.isInViewport($element, viewportTop, viewportBottom) === true) {
                         if (!$element.hasClass(_this2.opts.inViewClass)) {
                             $element.addClass(_this2.opts.inViewClass);
+
+                            if (!$element.hasClass(_this2.opts.onceInViewClass)) {
+                                $element.addClass(_this2.opts.onceInViewClass);
+                            }
                         }
                     } else {
                         if ($element.hasClass(_this2.opts.inViewClass)) {
