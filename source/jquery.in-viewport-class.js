@@ -41,7 +41,6 @@
         }
 
         init () {
-            console.log('init');
 
             this.$el.find(`.${this.opts.tellMeClass}`).each((index, element) => {
                 this.$elements.push($(element));
@@ -100,5 +99,3 @@
 jQuery(() => {
     $(document).inViewportClass();
 });
-
-

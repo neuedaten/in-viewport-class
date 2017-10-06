@@ -56,8 +56,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             value: function init() {
                 var _this = this;
 
-                console.log('init');
-
                 this.$el.find('.' + this.opts.tellMeClass).each(function (index, element) {
                     _this.$elements.push($(element));
                 });
