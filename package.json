@@ -1,6 +1,6 @@
 {
   "name": "in-viewport-class",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A jquery plugin that adds classes to elements in viewport",
   "main": "dist/jquery.in-viewport-class.js",
   "scripts": {
