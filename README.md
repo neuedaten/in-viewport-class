@@ -1,23 +1,24 @@
 # in-viewport-class
-A jQuery plugin that adds classes to elements in viewport
+A plain javascript script that adds classes to elements in viewport.
+This Repository also includes a jQuery version.
 
 ## Install
 
-###Plain Javascript:
+### Plain Javascript:
 
 `<script src="dist/in-viewport-class.js"></script>`
 
-###jQuery
+### jQuery
 
 include this script after the jQuery library:
 
 ```<script src="dist/jquery.in-viewport-class.js"></script>```html
 
-###bower
+### bower
 
 ```bower install in-viewport-class```bash
 
-###npm
+### npm
 ```npm install --save in-viewport-class```bash
 
 
