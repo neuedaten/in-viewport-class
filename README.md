@@ -1,5 +1,5 @@
 # in-viewport-class
-A plain javascript script (~1kb) that adds classes to elements in viewport.
+A plain javascript library (~1kb) that adds classes to elements in viewport.
 This Repository also includes a jQuery version.
 
 ## Install

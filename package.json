@@ -1,7 +1,7 @@
 {
   "name": "in-viewport-class",
-  "version": "0.1.0",
-  "description": "A plain javascript script that adds classes to elements in viewport (also as jquery plugin)",
+  "version": "0.1.1",
+  "description": "A plain javascript library (~1kb) that adds classes to elements in viewport (also as jquery plugin)",
   "main": "dist/in-viewport-class.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
