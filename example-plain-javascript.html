@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>In viewport class</title>
+
+    <style>
+
+        .element {
+            position: relative;
+            width: 100%;
+            opacity: 0.3;
+            transition: opacity 3s;
+        }
+        .element.in-viewport {
+            opacity: 1;
+        }
+
+        .element-1 {
+            height: 500px;
+            background: red;
+        }
+        .element-2 {
+            height: 100px;
+            background: orangered;
+        }
+        .element-3 {
+            height: 900px;
+            background: palevioletred;
+        }
+        .element-4 {
+            height: 20px;
+            background: cadetblue;
+        }
+        .element-5 {
+            height: 300px;
+            background: blueviolet;
+        }
+        .element-6 {
+            height: 1500px;
+            background: darkblue;
+        }
+        .element-7 {
+            height: 15px;
+            background: greenyellow;
+        }
+        .element-8 {
+            height: 20px;
+            background: lightgreen;
+        }
+        .element-9 {
+            height: 1115px;
+            background: lightgoldenrodyellow;
+        }
+        .element-10 {
+            height: 700px;
+            background: rebeccapurple;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div class="element i-v element-1">
+</div>
+<div class="element i-v element-2"><div class="test-offset i-v" style="position: absolute; top: 50px;">OFFSET</div></div>
+<div class="element i-v element-3"></div>
+<div class="element i-v element-4"></div>
+<div class="element i-v element-5"></div>
+<div class="element i-v element-6"></div>
+<div class="element i-v element-7"></div>
+<div class="element i-v element-8"></div>
+<div class="element i-v element-9"></div>
+<div class="element i-v element-10"></div>
+
+
+<script src="dist/in-viewport-class.js"></script>
+
+</body>
+</html>
