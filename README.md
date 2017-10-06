@@ -6,26 +6,36 @@ This Repository also includes a jQuery version.
 
 ### Plain Javascript:
 
-`<script src="dist/in-viewport-class.js"></script>`
+```html
+<script src="dist/in-viewport-class.js"></script>
+```
 
 ### jQuery
 
 include this script after the jQuery library:
 
-```<script src="dist/jquery.in-viewport-class.js"></script>```html
+```html
+<script src="dist/jquery.in-viewport-class.js"></script>
+```
 
 ### bower
 
-```bower install in-viewport-class```bash
+```bash
+bower install in-viewport-class
+```
 
 ### npm
-```npm install --save in-viewport-class```bash
+```bash
+npm install --save in-viewport-class
+```
 
 
 ## Use
 add `i-v` class to every element you want to observed.
 
-```<div class="element i-v"></div>```html
+```html
+<div class="element i-v"></div>
+```
 
 ## Classes
 
