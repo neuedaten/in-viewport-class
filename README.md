@@ -3,19 +3,28 @@ A jQuery plugin that adds classes to elements in viewport
 
 ## Install
 
-include jQuery and this script to your HTML document.
-As example:
+###Plain Javascript:
 
-`<script src="dist/jquery.in-viewport-class.js"></script>`
+`<script src="dist/in-viewport-class.js"></script>`
 
-Or use bower:
+###jQuery
 
-`bower install in-viewport-class`
+include this script after the jQuery library:
+
+```<script src="dist/jquery.in-viewport-class.js"></script>```html
+
+###bower
+
+```bower install in-viewport-class```bash
+
+###npm
+```npm install --save in-viewport-class```bash
+
 
 ## Use
 add `i-v` class to every element you want to observed.
 
-`<div class="element i-v"></div>`
+```<div class="element i-v"></div>```html
 
 ## Classes
 
