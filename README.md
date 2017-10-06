@@ -1,5 +1,5 @@
 # in-viewport-class
-A plain javascript script that adds classes to elements in viewport.
+A plain javascript script (~1kb) that adds classes to elements in viewport.
 This Repository also includes a jQuery version.
 
 ## Install
@@ -39,10 +39,10 @@ add `i-v` class to every element you want to observed.
 
 ## Classes
 
-1. `in-viewport` added when the element enter the viewport, removed when the element left the viewport
-2. `was-in-viewport` added when the element left the viewport
-3. `in-viewport-once` added when the element enter the viewport first, newer removed
+- `in-viewport` added when the element enter the viewport, removed when the element left the viewport
+- `was-in-viewport` added when the element left the viewport
+- `in-viewport-once` added when the element enter the viewport first, newer removed
 
 ## Example
 
-have a look at `example.html`
+have a look at `example-plain-javascript.html` or `example.html`
