@@ -20,7 +20,7 @@ gulp.task('startConnect', function() {
 
 gulp.task('javascript:live', function(cb) {
     pump([
-        gulp.src('./source/jquery.in-viewport-class.js'),
+        gulp.src('./source/in-viewport-class.js'),
         sourcemaps.init(),
         babel({
             presets: ['env']
@@ -35,7 +35,7 @@ gulp.task('javascript:live', function(cb) {
 
 gulp.task('javascript:build', function(cb) {
     pump([
-        gulp.src('./source/jquery.in-viewport-class.js'),
+        gulp.src('./source/in-viewport-class.js'),
         rename({suffix: '.min'}),
         sourcemaps.init(),
         babel({
@@ -55,6 +55,6 @@ gulp.task('build', ['javascript:build']);
 
 gulp.task('live', function() {
     gulp.watch(
-        './source/jquery.in-viewport-class.js',
+        './source/in-viewport-class.js',
         ['javascript:live']);
 });
