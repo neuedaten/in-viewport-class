@@ -1,7 +1,7 @@
 {
   "name": "in-viewport-class",
-  "description": "A jquery plugin that adds classes to elements in viewport",
-  "main": "dist/jquery.in-viewport-class.js",
+  "description": "A plain javascript script that adds classes to elements in viewport (also as jquery plugin)",
+  "main": "dist/in-viewport-class.js",
   "authors": [
     "Bastian Schwabe"
   ],
@@ -21,6 +21,5 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": ">=3.0.0"
   }
 }
