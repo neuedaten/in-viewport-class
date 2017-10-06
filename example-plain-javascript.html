@@ -6,55 +6,97 @@
 
     <style>
 
+        html, body {
+            margin: 0;
+        }
+
         .element {
             position: relative;
             width: 100%;
             opacity: 0.3;
             transition: opacity 3s;
+            padding: 20px;
         }
+
+        .element .in-viewport,
+        .element .in-viewport-once,
+        .element .was-in-viewport {
+            margin-bottom: 10px;
+            opacity: 0;
+            transform: translate(-500px, 0);
+            transition: all 1000ms;
+            color: #fff;
+            font-size: 20px;
+            font-family: monospace;
+        }
+
+            .element.in-viewport .in-viewport {
+                opacity: 1;
+                transform: translate(0, 0);
+            }
+
+            .element.in-viewport-once .in-viewport-once {
+                opacity: 1;
+                transform: translate(0, 0);
+            }
+
+            .element.was-in-viewport .was-in-viewport {
+                opacity: 1;
+                transform: translate(0, 0);
+            }
+
         .element.in-viewport {
             opacity: 1;
         }
 
         .element-1 {
             height: 500px;
-            background: red;
+            background: rebeccapurple;
         }
+
         .element-2 {
             height: 100px;
-            background: orangered;
+            background: mediumpurple;
         }
+
         .element-3 {
             height: 900px;
             background: palevioletred;
         }
+
         .element-4 {
-            height: 20px;
+            height: 100px;
             background: cadetblue;
         }
+
         .element-5 {
             height: 300px;
             background: blueviolet;
         }
+
         .element-6 {
             height: 1500px;
             background: darkblue;
         }
+
         .element-7 {
-            height: 15px;
+            height: 150px;
             background: greenyellow;
         }
+
         .element-8 {
-            height: 20px;
+            height: 250px;
             background: lightgreen;
         }
+
         .element-9 {
             height: 1115px;
             background: lightgoldenrodyellow;
         }
+
         .element-10 {
             height: 700px;
-            background: rebeccapurple;
+            background: indianred;
         }
 
 
@@ -63,16 +105,55 @@
 <body>
 
 <div class="element i-v element-1">
+    <div class="in-viewport">.in-viewport</div>
+    <div class="in-viewport-once">.in-viewport-once</div>
+    <div class="was-in-viewport">.was-in-viewport</div>
 </div>
-<div class="element i-v element-2"><div class="test-offset i-v" style="position: absolute; top: 50px;">OFFSET</div></div>
-<div class="element i-v element-3"></div>
-<div class="element i-v element-4"></div>
-<div class="element i-v element-5"></div>
-<div class="element i-v element-6"></div>
-<div class="element i-v element-7"></div>
-<div class="element i-v element-8"></div>
-<div class="element i-v element-9"></div>
-<div class="element i-v element-10"></div>
+<div class="element i-v element-2">
+    <div class="in-viewport">.in-viewport</div>
+    <div class="in-viewport-once">.in-viewport-once</div>
+    <div class="was-in-viewport">.was-in-viewport</div>
+</div>
+<div class="element i-v element-3">
+    <div class="in-viewport">.in-viewport</div>
+    <div class="in-viewport-once">.in-viewport-once</div>
+    <div class="was-in-viewport">.was-in-viewport</div>
+</div>
+<div class="element i-v element-4">
+    <div class="in-viewport">.in-viewport</div>
+    <div class="in-viewport-once">.in-viewport-once</div>
+    <div class="was-in-viewport">.was-in-viewport</div>
+</div>
+<div class="element i-v element-5">
+    <div class="in-viewport">.in-viewport</div>
+    <div class="in-viewport-once">.in-viewport-once</div>
+    <div class="was-in-viewport">.was-in-viewport</div>
+</div>
+<div class="element i-v element-6">
+    <div class="in-viewport">.in-viewport</div>
+    <div class="in-viewport-once">.in-viewport-once</div>
+    <div class="was-in-viewport">.was-in-viewport</div>
+</div>
+<div class="element i-v element-7">
+    <div class="in-viewport">.in-viewport</div>
+    <div class="in-viewport-once">.in-viewport-once</div>
+    <div class="was-in-viewport">.was-in-viewport</div>
+</div>
+<div class="element i-v element-8">
+    <div class="in-viewport">.in-viewport</div>
+    <div class="in-viewport-once">.in-viewport-once</div>
+    <div class="was-in-viewport">.was-in-viewport</div>
+</div>
+<div class="element i-v element-9">
+    <div class="in-viewport">.in-viewport</div>
+    <div class="in-viewport-once">.in-viewport-once</div>
+    <div class="was-in-viewport">.was-in-viewport</div>
+</div>
+<div class="element i-v element-10">
+    <div class="in-viewport">.in-viewport</div>
+    <div class="in-viewport-once">.in-viewport-once</div>
+    <div class="was-in-viewport">.was-in-viewport</div>
+</div>
 
 
 <script src="dist/in-viewport-class.js"></script>
