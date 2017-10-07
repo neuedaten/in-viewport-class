@@ -75,7 +75,7 @@
     }
 
     document.onreadystatechange = () => {
-        if (document.readyState === 'complete') {
+        if (document.readyState === 'interactive') {
             storeElements();
 
             window.addEventListener('scroll', update);
