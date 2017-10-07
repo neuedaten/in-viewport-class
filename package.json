@@ -1,6 +1,6 @@
 {
   "name": "in-viewport-class",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A plain javascript library (~1kb) that adds classes to elements in viewport (also as jquery plugin)",
   "main": "dist/in-viewport-class.js",
   "scripts": {
