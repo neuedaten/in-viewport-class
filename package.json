@@ -1,11 +1,12 @@
 {
   "name": "in-viewport-class",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A plain javascript library (~1kb) that adds classes to elements in viewport (also as jquery plugin)",
   "main": "dist/in-viewport-class.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "readmeFileName": "README_NPM.JSON",
   "author": "Bastian Schwabe",
   "license": "MIT",
   "repository": {
