@@ -45,4 +45,6 @@ add `i-v` class to every element you want to observed.
 
 ## Example
 
-have a look at `example-plain-javascript.html` or `example.html`
+www.neuedaten.de/in-viewport-class/
+
+or have a look at `example-plain-javascript.html` or `example.html`
